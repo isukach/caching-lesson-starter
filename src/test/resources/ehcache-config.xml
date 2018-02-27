@@ -9,4 +9,9 @@
     <persistence strategy="localTempSwap"/>
   </defaultCache>
 
+  <cache name="heroes"
+         maxElementsInMemory="500"
+         eternal="false"
+         timeToIdleSeconds="60"
+         timeToLiveSeconds="60"/>
 </ehcache>
